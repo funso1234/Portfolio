@@ -30,6 +30,7 @@ const Navigation = () => {
                 {item}
               </a>
             ))}
+          
             <div className="flex gap-4 ml-4 text-cyan-400">
               <a href="https://www.linkedin.com/in/oyewusi-samuel-8a3472302" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-6 h-6 hover:text-cyan-200 transition-colors" />
@@ -74,7 +75,7 @@ const Navigation = () => {
                   ))}
 
                   {/* Mobile Social Links */}
-                  <div className="flex gap-6 pt-4 px-2">
+                  <div className="flex flex-col gap-6 pt-4 px-2">
                     <a
                       href="https://www.linkedin.com/in/oyewusi-samuel-8a3472302"
                       target="_blank"
